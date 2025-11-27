@@ -1,5 +1,6 @@
 # wuwenjun/tensor.py
 import numpy as np
+np.random.seed(0) # 设置随机种子，确保结果可复现
 
 
 class Tensor:#定义一个名为 Tensor 的类,类似于 PyTorch 的 torch.Tensor,用来表示带梯度的张量。
